@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DnD-React/static/css/main.4e2142d8.css",
-    "main.js": "/DnD-React/static/js/main.2cc31919.js",
+    "main.css": "/DnD-React/static/css/main.4b91361b.css",
+    "main.js": "/DnD-React/static/js/main.8cd44c20.js",
     "static/media/video.mp4": "/DnD-React/static/media/video.83fcaabf488c2476faea.mp4",
     "static/media/undead.png": "/DnD-React/static/media/undead.20e907294d07c720e252.png",
     "static/media/Daisy-Head.jpg": "/DnD-React/static/media/Daisy-Head.b55aa4dd9b693523a0e7.jpg",
@@ -41,11 +41,11 @@
     "static/media/presto.jpg": "/DnD-React/static/media/presto.c7f8d3fc43529eb8a730.jpg",
     "static/media/hank.webp": "/DnD-React/static/media/hank.b53979f5789f70c20111.webp",
     "index.html": "/DnD-React/index.html",
-    "main.4e2142d8.css.map": "/DnD-React/static/css/main.4e2142d8.css.map",
-    "main.2cc31919.js.map": "/DnD-React/static/js/main.2cc31919.js.map"
+    "main.4b91361b.css.map": "/DnD-React/static/css/main.4b91361b.css.map",
+    "main.8cd44c20.js.map": "/DnD-React/static/js/main.8cd44c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2142d8.css",
-    "static/js/main.2cc31919.js"
+    "static/css/main.4b91361b.css",
+    "static/js/main.8cd44c20.js"
   ]
 }
