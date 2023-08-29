@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DnD-React/static/css/main.4e2142d8.css",
-    "main.js": "/DnD-React/static/js/main.ccdaf823.js",
+    "main.js": "/DnD-React/static/js/main.2cc31919.js",
     "static/media/video.mp4": "/DnD-React/static/media/video.83fcaabf488c2476faea.mp4",
     "static/media/undead.png": "/DnD-React/static/media/undead.20e907294d07c720e252.png",
     "static/media/Daisy-Head.jpg": "/DnD-React/static/media/Daisy-Head.b55aa4dd9b693523a0e7.jpg",
@@ -42,10 +42,10 @@
     "static/media/hank.webp": "/DnD-React/static/media/hank.b53979f5789f70c20111.webp",
     "index.html": "/DnD-React/index.html",
     "main.4e2142d8.css.map": "/DnD-React/static/css/main.4e2142d8.css.map",
-    "main.ccdaf823.js.map": "/DnD-React/static/js/main.ccdaf823.js.map"
+    "main.2cc31919.js.map": "/DnD-React/static/js/main.2cc31919.js.map"
   },
   "entrypoints": [
     "static/css/main.4e2142d8.css",
-    "static/js/main.ccdaf823.js"
+    "static/js/main.2cc31919.js"
   ]
 }
