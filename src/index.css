@@ -1,0 +1,21 @@
+@import url(https://db.onlinewebfonts.com/c/40f46a2006a599684b999288e839348e?family=Modesto+Poster+W05+Regular); 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*html {
+  min-width: 320px;
+  max-width: 1400px;
+}*/

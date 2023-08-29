@@ -1,0 +1,156 @@
+#body-bg{
+  background-image: url('../../assets/Contato/tiamat.webp');
+  background-size: cover;
+  background-position: center; 
+  
+  
+}
+
+
+#textbox{
+  height: auto;
+  width: 100%;
+  padding-top: 1rem;
+  text-shadow: 2px 2px #d21617;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 0.75;
+  color: aliceblue;
+  font-size: 19px;
+  font-family: "Modesto Poster W05 Regular";
+}
+
+#nome{
+  font-family: "Modesto Poster W05 Regular";
+  border-style: solid;
+  border-radius: 5px;
+  position: center;
+  width: 600px;    
+  height: auto;
+  align-items: center;
+}
+
+#email{
+  border-style: solid;
+  font-family: "Modesto Poster W05 Regular";
+  border-radius: 5px;
+  width: 600px; 
+}
+
+#Mensagem{
+  border-style: solid;
+  color: black;
+  font-family: "Modesto Poster W05 Regular";
+}
+#cto-button {
+  width: 150px;
+  height: 45px;
+  background-color: #d21617;
+  text-shadow: 2px 2px #000;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .8s;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin-top: 25px;
+  font-family: "Modesto Poster W05 Regular";
+}
+
+#cto-button:hover {
+  background-color: #000;
+  text-shadow: 2px 2px #d21617;
+  color: #fff;
+  
+}
+
+
+textarea {
+  color: aliceblue;
+  border-radius: 5px;
+  width: 600px;
+  height: auto;
+}
+
+@media(max-width: 768px) {
+  #body-bg {
+    background-image: url('../../assets/Contato/Alternative.jpg');
+  }
+
+
+  .footer-navigation {
+      display: block;
+      padding-right: 10px;
+  }
+
+  #textbox{
+      margin: auto;
+      width: 300px;
+  }
+
+  #nome{
+      width: 300px;    
+      
+  }
+  
+  #email{  
+      width: 300px; 
+  }
+
+  #Mensagem{
+      width: 300px;
+  }
+  
+  nav {
+      display: none;
+  }
+
+  #disclaimer {
+      font-size: 12px;
+  }
+}
+
+@media(max-width: 480px) {
+  #body-bg {
+    background-image: url('../../assets/Contato/Alternative.jpg');
+  }
+
+
+  .footer-navigation {
+      display: block;
+      padding-right: 10px;
+  }
+
+  #textbox{
+      margin: auto;
+      width: 300px;
+  }
+
+  #nome{
+      width: 300px;    
+      
+  }
+  
+  #email{  
+      width: 300px; 
+  }
+
+  #Mensagem{
+      width: 300px;
+  }
+  
+  nav {
+      display: none;
+  }
+
+  #disclaimer {
+      font-size: 12px;
+  }
+}

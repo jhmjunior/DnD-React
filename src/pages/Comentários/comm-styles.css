@@ -1,0 +1,145 @@
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 2px 2px #d21617;
+  font-family: "Modesto Poster W05 Regular";
+  text-align: center;
+}
+
+.containers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.actor-cards-container1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.actor-cards-container2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.comm-cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.comm-card {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 0 0 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #d21617;
+  font-family: "Modesto Poster W05 Regular";
+}
+
+.description {
+  font-family: "Modesto Poster W05 Regular";
+  font-size: 1.8rem;
+}
+
+.c-banner-1 {
+  background-image: url('../../assets/comentarios/mdm.webp');
+
+}
+
+.c-banner-2 {
+  background-image: url('../../assets/comentarios/hank.webp');
+}
+
+.c-banner-3 {
+  background-image: url('../../assets/comentarios/vingador.webp');
+}
+
+.c-banner-4 {
+  background-image: url('../../assets/comentarios/Eric.jpeg');
+}
+
+.c-banner-5 {
+  background-image: url('../../assets/comentarios/Sheila.webp');
+}
+
+.c-banner-6 {
+  background-image: url('../../assets/comentarios/bobby.jpeg');
+}
+
+.c-banner-7 {
+  background-image: url('../../assets/comentarios/presto.jpg');
+}
+
+.c-banner-8 {
+  background-image: url('../../assets/comentarios/Diana.jpg');
+}
+
+.c-banner-9 {
+  background-image: url('../../assets/comentarios/Tiamat.jpg');
+}
+
+.c-banner-10 {
+  background-image: url('../../assets/comentarios/Uni.webp');
+}
+
+@media(max-width: 768px) {
+ 
+  .containers {
+    width: 100vw;
+    display: block;
+    margin-top: 0px;
+  }
+  .actor-cards-container1 {
+    width: 100%;
+  }
+
+  .actor-cards-container2 {
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 480px) {
+  .containers {
+    width: 100vw;
+    display: block;
+    margin-top: 0px;
+  }
+
+
+  .comm-cards-content {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
+  }
+
+  .description { 
+    font-size: 1.2rem;
+    width: 95%;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+  .actor-cards-container1 {
+    width: 100%;
+  }
+
+  .actor-cards-container2 {
+    width: 100%;
+  }
+}

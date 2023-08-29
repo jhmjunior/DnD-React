@@ -1,0 +1,119 @@
+.actor-cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cards-content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  row-gap: 20px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  cursor: zoom-in;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 20px 10px;
+  color: #fff;
+  text-shadow: 2px 2px #d21617;
+  font-size: 17px;
+  font-family: "Modesto Poster W05 Regular";
+}
+
+
+
+.banner-1 {
+  background-image: url('../../assets/cards/Justice-Smith.webp');
+}
+
+.banner-2 {
+  background-image: url('../../assets/cards/Michelle-Rodriguez.webp');
+}
+
+.banner-3 {
+  background-image: url('../../assets/cards/Chris-Pine.webp');
+}
+
+.banner-4 {
+  background-image: url('../../assets/cards/Regé-jean-Page.jpg');
+}
+
+.banner-5 {
+  background-image: url('../../assets/cards/Sophia-Lillis.webp');
+}
+
+.banner-6 {
+  background-image: url('../../assets/cards/Daisy-Head.jpg');
+}
+
+.banner-1:hover {
+  background-image: url('../../assets/cards/Simon.webp');
+  transition: 1s;
+  transform: scale(1.10);
+}
+
+.banner-2:hover {
+  background-image: url('../../assets/cards/Holga.webp');
+  transition: 1s;
+  transform: scale(1.10);
+}
+
+.banner-3:hover {
+  background-image: url('../../assets/cards/Elgin.webp'); 
+  transition: 1s;
+  transform: scale(1.10);
+}
+
+.banner-4:hover {
+  background-image: url('../../assets/cards/Xenk.webp');
+  transform: scale(1.10);
+  transition: 1s;
+}
+
+.banner-5:hover {
+  background-image: url('../../assets/cards/Doric.webp');
+  transform: scale(1.10);
+  transition: 1s;
+}
+
+.banner-6:hover {
+  background-image: url('../../assets/cards/Sofina.webp');
+  transition: 1s;
+  transform: scale(1.10);
+}
+
+@media(max-width: 768px) {
+  .cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+  }
+
+  .card {
+    padding: 0px;
+  }
+}
+
+@media(max-width: 480px) {
+  .cards-content {
+    grid-template-columns: 1fr;
+  }
+
+  .actor-cards-container {
+    margin-top: -110px;
+  }
+
+  .card {
+    padding: 0px;
+  }
+}

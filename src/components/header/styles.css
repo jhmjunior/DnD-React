@@ -1,0 +1,48 @@
+header {
+ height: 90px; 
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: #000;
+}
+
+nav {
+  width: 60%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 19px;
+  transition: .5s;
+  font-family: "Modesto Poster W05 Regular";
+}
+
+li:hover {
+  color: #D21617;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+@media(max-width:768px) {
+  ul {
+    padding: 0px;
+  }
+}
+
+@media(max-width:480px) {
+  nav {
+    display: none;
+  }
+}
+
