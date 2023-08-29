@@ -11,7 +11,7 @@ function Footer () {
     <footer>
       <nav className="footer-navigation" >
         <ul className='footer-list'>
-          <Link style={{ textDecoration:'none'}} to='/'>
+          <Link style={{ textDecoration:'none'}} to='/DnD-React'>
             <li>Home</li>
           </Link>
           <Link style={{ textDecoration:'none'}} to='/fotos'>
